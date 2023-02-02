@@ -16,9 +16,10 @@ services:
 
   librarycontrol:
     build: .
+    container_name: node_librarycontrol
     command: npm run dev
     ports:
-      - "3000:3001"
+      - 3001:3001
     volumes:
       - .:/usr/app
 

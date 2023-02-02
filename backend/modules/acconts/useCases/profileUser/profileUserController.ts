@@ -6,7 +6,7 @@ class ProfileUserController {
     async handle(request: Request, response: Response): Promise<Response> {
         const id = request.body.id
 
-        console.log(id)
+        console.log('listallusers')
 
         if(true) {
             const profileUserUseCase = new ProfileUserUseCase()
